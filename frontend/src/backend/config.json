@@ -1,0 +1,15 @@
+{
+  "baseUrl": "http://localhost:8081",
+  "movieUrl": "http://localhost:8082",
+  "cartUrl": "http://localhost:8083",
+  "idm": {
+    "login": "/login",
+    "register": "/register",
+    "search": "/movie/search",
+    "getMovie": "/movie/",
+    "insertCart": "/cart/insert",
+    "retrieveCart": "/cart/retrieve",
+    "updateCart": "/cart/update",
+    "deleteCart": "/cart/delete/"
+  }
+}

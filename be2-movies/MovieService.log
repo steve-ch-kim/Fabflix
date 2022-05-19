@@ -1,0 +1,100 @@
+2022-05-19 00:01:57.402  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-4] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:02:02.836  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-5] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/search?direction=asc&orderBy=rating&limit=10&page=1]
+2022-05-19 00:02:02.842  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-6] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?direction=asc&orderBy=rating&limit=10&page=1]
+2022-05-19 00:02:06.967  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-7] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/76600]
+2022-05-19 00:02:06.970  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-8] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/76600]
+2022-05-19 00:02:56.896  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-9] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/search?title=korean&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:02:56.899  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-10] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?title=korean&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:02:57.924  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-1] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?title=korean&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:03:00.628  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-2] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/search?title=korea&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:03:00.632  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-3] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?title=korea&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:03:06.002  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-4] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/search?title=memories&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:03:06.005  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-5] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?title=memories&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:03:09.149  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-6] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/search?title=memories+of&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:03:09.151  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-7] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?title=memories+of&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:03:13.175  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-8] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/search?title=memories+of+murder&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:03:13.178  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-9] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?title=memories+of+murder&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:03:17.820  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-10] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/search?title=ode&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:03:17.825  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-1] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?title=ode&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:03:23.278  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-2] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/14396]
+2022-05-19 00:03:23.282  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-3] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/14396]
+2022-05-19 00:04:39.982  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-5] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/search?direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:04:39.985  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-6] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:04:41.382  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-7] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/82767]
+2022-05-19 00:04:41.386  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-8] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/82767]
+2022-05-19 00:05:06.818  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-9] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:05:09.083  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-10] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/82767]
+2022-05-19 00:10:01.110  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-2] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/search?genre=Adventure&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:10:01.113  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-3] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?genre=Adventure&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:10:05.329  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-4] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/search?genre=Adventure&direction=asc&orderBy=title&limit=25&page=1]
+2022-05-19 00:10:05.332  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-5] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?genre=Adventure&direction=asc&orderBy=title&limit=25&page=1]
+2022-05-19 00:10:10.471  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-6] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/480105]
+2022-05-19 00:10:10.476  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-7] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/480105]
+2022-05-19 00:21:26.847  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-9] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/search?genre=Horror&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:21:26.849  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-10] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?genre=Horror&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:21:32.190  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-1] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/search?genre=Horror&direction=desc&orderBy=title&limit=10&page=1]
+2022-05-19 00:21:32.193  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-2] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?genre=Horror&direction=desc&orderBy=title&limit=10&page=1]
+2022-05-19 00:21:34.923  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-3] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?genre=Horror&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 00:21:36.480  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-4] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/8329]
+2022-05-19 00:21:36.484  INFO 13189 --- [http-nio-0.0.0.0-8082-exec-5] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/8329]
+2022-05-19 00:23:02.590  INFO 13189 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-19 00:23:02.593  INFO 13189 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-19 12:54:44.910  INFO 14283 --- [main] c.g.k.cs122b.movies.MoviesService        : Starting MoviesService using Java 17.0.1 on steves-mbp.lan with PID 14283 (/Users/stevekim/Desktop/uci/cs122b/fabflix/be2-movies/target/classes started by stevekim in /Users/stevekim/Desktop/uci/cs122b/fabflix/be2-movies)
+2022-05-19 12:54:44.911  INFO 14283 --- [main] c.g.k.cs122b.movies.MoviesService        : No active profile set, falling back to 1 default profile: "default"
+2022-05-19 12:54:45.214  INFO 14283 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-19 12:54:45.216  INFO 14283 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-19 12:54:45.217  INFO 14283 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-19 12:54:45.244  INFO 14283 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-19 12:54:45.244  INFO 14283 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 311 ms
+2022-05-19 12:54:45.401  INFO 14283 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-05-19 12:54:45.405  INFO 14283 --- [main] c.g.k.cs122b.movies.MoviesService        : Started MoviesService in 0.646 seconds (JVM running for 0.913)
+2022-05-19 12:55:24.863  INFO 14283 --- [http-nio-0.0.0.0-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-19 12:55:24.863  INFO 14283 --- [http-nio-0.0.0.0-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-19 12:55:24.864  INFO 14283 --- [http-nio-0.0.0.0-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-19 12:55:24.866  INFO 14283 --- [http-nio-0.0.0.0-8082-exec-1] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/search?direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 12:55:39.003  INFO 14283 --- [http-nio-0.0.0.0-8082-exec-3] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 12:55:39.023  INFO 14283 --- [http-nio-0.0.0.0-8082-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-19 12:55:39.142  INFO 14283 --- [http-nio-0.0.0.0-8082-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-19 12:55:49.895  INFO 14283 --- [http-nio-0.0.0.0-8082-exec-4] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 12:55:51.228  INFO 14283 --- [http-nio-0.0.0.0-8082-exec-5] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/187442]
+2022-05-19 12:55:51.231  INFO 14283 --- [http-nio-0.0.0.0-8082-exec-6] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/187442]
+2022-05-19 12:56:30.076  INFO 14283 --- [http-nio-0.0.0.0-8082-exec-8] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/search?direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 12:56:30.081  INFO 14283 --- [http-nio-0.0.0.0-8082-exec-9] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 12:56:31.856  INFO 14283 --- [http-nio-0.0.0.0-8082-exec-10] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/187442]
+2022-05-19 12:56:31.859  INFO 14283 --- [http-nio-0.0.0.0-8082-exec-1] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/187442]
+2022-05-19 12:56:43.641  INFO 14283 --- [http-nio-0.0.0.0-8082-exec-2] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/search?title=spiderman&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 12:56:43.645  INFO 14283 --- [http-nio-0.0.0.0-8082-exec-3] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?title=spiderman&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 12:56:44.484  INFO 14283 --- [http-nio-0.0.0.0-8082-exec-4] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?title=spiderman&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 12:56:47.654  INFO 14283 --- [http-nio-0.0.0.0-8082-exec-5] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/search?title=avengers&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 12:56:47.657  INFO 14283 --- [http-nio-0.0.0.0-8082-exec-6] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?title=avengers&direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 12:56:50.720  INFO 14283 --- [http-nio-0.0.0.0-8082-exec-7] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/299536]
+2022-05-19 12:56:50.722  INFO 14283 --- [http-nio-0.0.0.0-8082-exec-8] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/299536]
+2022-05-19 12:57:10.143  INFO 14283 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-19 12:57:10.146  INFO 14283 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-19 13:00:06.370  INFO 14501 --- [main] c.g.k.cs122b.movies.MoviesService        : Starting MoviesService using Java 17.0.1 on steves-mbp.lan with PID 14501 (/Users/stevekim/Desktop/uci/cs122b/fabflix/be2-movies/target/classes started by stevekim in /Users/stevekim/Desktop/uci/cs122b/fabflix/be2-movies)
+2022-05-19 13:00:06.371  INFO 14501 --- [main] c.g.k.cs122b.movies.MoviesService        : No active profile set, falling back to 1 default profile: "default"
+2022-05-19 13:00:06.683  INFO 14501 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8082 (http)
+2022-05-19 13:00:06.687  INFO 14501 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-19 13:00:06.687  INFO 14501 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.60]
+2022-05-19 13:00:06.720  INFO 14501 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-19 13:00:06.720  INFO 14501 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 326 ms
+2022-05-19 13:00:06.899  INFO 14501 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8082 (http) with context path ''
+2022-05-19 13:00:06.905  INFO 14501 --- [main] c.g.k.cs122b.movies.MoviesService        : Started MoviesService in 0.708 seconds (JVM running for 0.953)
+2022-05-19 13:01:17.307  INFO 14501 --- [http-nio-0.0.0.0-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-19 13:01:17.308  INFO 14501 --- [http-nio-0.0.0.0-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-19 13:01:17.309  INFO 14501 --- [http-nio-0.0.0.0-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-19 13:01:17.312  INFO 14501 --- [http-nio-0.0.0.0-8082-exec-1] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/search?direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 13:01:33.001  INFO 14501 --- [http-nio-0.0.0.0-8082-exec-3] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 13:01:33.025  INFO 14501 --- [http-nio-0.0.0.0-8082-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-19 13:01:33.149  INFO 14501 --- [http-nio-0.0.0.0-8082-exec-3] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-19 13:01:36.992  INFO 14501 --- [http-nio-0.0.0.0-8082-exec-4] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/8329]
+2022-05-19 13:01:36.996  INFO 14501 --- [http-nio-0.0.0.0-8082-exec-5] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/8329]
+2022-05-19 13:01:49.164  INFO 14501 --- [http-nio-0.0.0.0-8082-exec-6] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/8329]
+2022-05-19 13:01:52.556  INFO 14501 --- [http-nio-0.0.0.0-8082-exec-7] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 13:01:54.166  INFO 14501 --- [http-nio-0.0.0.0-8082-exec-8] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [OPTIONS /movie/82767]
+2022-05-19 13:01:54.171  INFO 14501 --- [http-nio-0.0.0.0-8082-exec-9] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/82767]
+2022-05-19 13:02:09.064  INFO 14501 --- [http-nio-0.0.0.0-8082-exec-10] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 13:02:12.057  INFO 14501 --- [http-nio-0.0.0.0-8082-exec-1] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/8329]
+2022-05-19 13:02:34.467  INFO 14501 --- [http-nio-0.0.0.0-8082-exec-2] c.g.k.c.c.spring.ServiceRequestLogger    : Incoming Request: [GET /movie/search?direction=asc&orderBy=title&limit=10&page=1]
+2022-05-19 13:02:59.896  INFO 14501 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-19 13:02:59.900  INFO 14501 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

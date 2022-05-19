@@ -1,0 +1,229 @@
+* {
+  font-family: "Bebas Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #121212;
+}
+
+.navbar .styledNavLink.active {
+  color: #fff;
+}
+
+#navbar-outside {
+  padding: 15px 150px 10px 10px;
+  background-color: #181818;
+  width: 100%;
+}
+
+.subtitle {
+  font-size: 11px;
+  color: #989898;
+}
+
+#header {
+  color: #fff;
+  padding-top: 80px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+#container {
+  width: 50vh;
+}
+
+#searchButton {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#selects {
+  font-size: 12px;
+  color: #989898;
+  padding: 25px;
+}
+
+#firstSelects {
+  font-size: 12px;
+  color: #989898;
+  padding-right: 25px;
+}
+
+#selectsButtons {
+  font-size: 12px;
+  color: #989898;
+  padding: 10px;
+}
+
+#label {
+  width: 200px;
+  text-align: right;
+}
+
+#cartButton {
+  cursor: pointer;
+  padding: 8px 7px 8px 7px;
+  border: none;
+  border-radius: 3px;
+  margin-left: 15px;
+  float: right;
+  text-align: center;
+  background: #2ca87f;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+#movieTitle {
+  font-size: 25px;
+}
+
+#movieTitle:link {
+  color: white;
+  text-decoration: none;
+}
+
+#movieTitle:visited {
+  color: white;
+  text-decoration: none;
+}
+
+#movieTitle:hover {
+  color: #38d39f;
+  text-decoration: none;
+}
+
+#pageButton {
+  cursor: pointer;
+  padding: 5px 5px 5px 5px;
+  border: solid #989898;
+  border-radius: 3px;
+  float: right;
+  text-align: center;
+  background: black;
+  color: rgba(255, 255, 255, 0.8);
+  margin-left: 5px;
+  text-decoration: none;
+}
+
+#pageButton:hover {
+  border-color: #2ca87f;
+  background-color: #2ca87f;
+  transition: 0.25s;
+}
+
+h5 {
+  padding-top: 5px;
+}
+
+span {
+  color: #2ca87f;
+}
+
+#img {
+  padding-top: 10px;
+}
+
+#detail-img {
+  padding: 25px;
+}
+
+#cart-img {
+  padding-top: 20px;
+}
+
+.cart-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-header {
+  font-size: 25px;
+  color: #2ca87f;
+  padding-bottom: 10px;
+}
+
+.cart-details {
+  text-align: center;
+}
+
+.img-item {
+  padding-top: 20px;
+  display: inline-block;
+}
+
+.quantity-item {
+  margin-left: 320px;
+  position: relative;
+  top: -150px;
+  display: inline-block;
+  cursor: pointer;
+  padding: 8px 7px 8px 7px;
+  border: none;
+  border-radius: 3px;
+  text-align: center;
+  background: #989898;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.price-item {
+  margin-left: 150px;
+  position: relative;
+  top: -150px;
+  display: inline-block;
+  color: #2ca87f;
+}
+
+.update-cart {
+  margin-left: 10px;
+  position: relative;
+  top: -150px;
+  cursor: pointer;
+  padding: 5px 5px 5px 5px;
+  border: solid #989898;
+  border-radius: 3px;
+  text-align: center;
+  background: black;
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.update-cart:hover {
+  border-color: #2ca87f;
+  background-color: #2ca87f;
+  transition: 0.25s;
+}
+
+.movie-details, .quantity-details, .price-details {
+  display: inline-block;
+  color: #989898;
+  padding-bottom: 10px;
+}
+
+.movie-details {
+  padding-right: 450px;
+}
+
+.quantity-details {
+  padding-right: 150px;
+}
+
+.movie-detail {
+  color: #989898;
+  padding-bottom: 75px;
+}
+
+#cartButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+#cart-total {
+  color: #989898;
+  padding-top: 10px;
+  display: inline-block;
+}
+
+#checkout-items {
+  padding-top: 50px;
+  margin-bottom: 100px;
+}
