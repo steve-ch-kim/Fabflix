@@ -1,7 +1,8 @@
-import React, {useEffect} from "react";
+import React, {useEffect, useState} from "react";
 import {useUser} from "../hook/User";
-import {cartDelete, cartUpdate, retrieveCart} from "../backend/idm";
+import {cartDelete, cartUpdate, orderPayment, retrieveCart} from "../backend/idm";
 import {useNavigate} from "react-router-dom";
+import App from "pages/App";
 
 const Cart = () => {
     const {
@@ -9,6 +10,7 @@ const Cart = () => {
         refreshToken, setRefreshToken
     } = useUser();
 
+    // cart
     const [cart, setCart] = React.useState([]);
     const navigate = useNavigate();
 
@@ -74,10 +76,9 @@ const Cart = () => {
                 )}
                 <div id="checkout-items">
                     { cart["total"] && <h2 id="cart-total">Total: ${cart["total"]}</h2>}
-                    <button id="cartButton">Checkout</button>
+                    <button onClick={() => window.location.href="/checkout"} id="cartButton">Checkout</button>
                     <button onClick={() => backHome()} id="pageButton">Home</button>
                 </div>
-
             </div>
         </div>
     );

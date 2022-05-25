@@ -98,6 +98,7 @@ export async function insertCart(insertRequest, accessToken) {
 }
 
 export async function retrieveCart(queryParams, accessToken) {
+
     const options = {
         method: "GET",
         baseURL: Config.cartUrl,
@@ -140,6 +141,52 @@ export async function cartDelete(deleteRequest, accessToken) {
         baseURL: Config.cartUrl,
         url: Config.idm.deleteCart + deleteRequest.movieId,
         data: requestBody,
+        headers: {
+            Authorization: "Bearer " + accessToken
+        }
+    };
+
+    return Axios.request(options);
+}
+
+export async function orderPayment(queryParams, accessToken) {
+    const options = {
+        method: "GET",
+        baseURL: Config.cartUrl,
+        url: Config.idm.orderPayment,
+        params: queryParams,
+        headers: {
+            Authorization: "Bearer " + accessToken
+        }
+    };
+
+    return Axios.request(options);
+}
+
+export async function orderComplete(orderRequest, accessToken) {
+    const requestBody = {
+        paymentIntentId: orderRequest.paymentIntentId
+    };
+
+    const options = {
+        method: "POST", // Method type ("POST", "GET", "DELETE", ect)
+        baseURL: Config.cartUrl,
+        url: Config.idm.orderComplete,
+        data: requestBody,
+        headers: {
+            Authorization: "Bearer " + accessToken
+        }
+    };
+
+    return Axios.request(options);
+}
+
+export async function orderList(queryParams, accessToken) {
+    const options = {
+        method: "GET",
+        baseURL: Config.cartUrl,
+        url: Config.idm.orderList,
+        params: queryParams,
         headers: {
             Authorization: "Bearer " + accessToken
         }

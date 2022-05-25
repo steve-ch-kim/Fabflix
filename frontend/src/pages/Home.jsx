@@ -1,8 +1,9 @@
-import React from "react";
+import React, {useEffect} from "react";
 import styled from "styled-components";
-import {searchMovies} from "backend/idm";
+import {orderComplete, searchMovies} from "backend/idm";
 import {useForm} from "react-hook-form";
 import {useUser} from "hook/User";
+import {useSearchParams} from "react-router-dom";
 
 const StyledDiv = styled.div` 
     padding: 15px;
@@ -54,6 +55,19 @@ const Home = () => {
     const [movies, setMovies] = React.useState([]);
     const {register, getValues, handleSubmit} = useForm();
     const [page, setPage] = React.useState(1);
+    const [searchParams, setSearchParams] = useSearchParams();
+
+    const completeOrder = () => {
+        const paymentIntentId = searchParams.get("payment_intent");
+
+        if (paymentIntentId !== null) {
+            orderComplete({
+                paymentIntentId: paymentIntentId
+            }, accessToken)
+                .then(response => alert(JSON.stringify(response.data, null, 2)))
+                .catch(error => alert(JSON.stringify(error.response.data, null, 2)));
+        }
+    }
 
     const getMovies = () => {
         const title = getValues("title").trim();
@@ -76,6 +90,8 @@ const Home = () => {
             .then(response => setMovies(response.data))
             .catch(error => alert(JSON.stringify(error.response.data, null, 2)));
     };
+
+    useEffect(() => completeOrder(), []);
 
     return (
         <div>
